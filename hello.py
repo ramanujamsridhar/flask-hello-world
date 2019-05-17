@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     ipaddr = socket.gethostbyname(socket.gethostname())
-    return 'Im  Chitti v2.0 ! \n IP Address '+ipaddr
+    return 'Im  Chitti v2.0 with IP Address '+ipaddr
 
 if __name__ == '__main__':
 #    app.run()
